@@ -1,7 +1,13 @@
 #Location
 from datetime import datetime, timedelta
+
 #input date as a string from user
 birthday = input('date as dd/mm/yyyy')
+
 #converting to date datatype
 birthday_date = datetime.strptime(birthday, '%d/%m/%Y')
+
+#going back in time with timedelta
+oneday = timedelta(days=1)
+yesterday = datetime.now - oneday
 
