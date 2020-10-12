@@ -1,1 +1,10 @@
 Print()   #Blank Line
+Print('\n')   #Blank Line
+
+Print('string')
+Print(''string'')
+
+Print(str(num) + 'string') #Print handle '+' as Strings Concatenation when there str type
+Print(num+num2)
+
+
