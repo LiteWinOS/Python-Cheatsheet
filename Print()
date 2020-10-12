@@ -7,6 +7,6 @@ Print(''string'')
 
 #
 Print(str(num) + 'string') #Print handle '+' as Strings Concatenation when there str type
-Print(num+num2)
+Print(num+num2)   #Output will be int
 
 
