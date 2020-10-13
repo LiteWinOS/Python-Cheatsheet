@@ -25,3 +25,10 @@ if word == 'string' or word == 'string2':
 elif word == 'string3':
     tax = 0
 print(tax)   
+
+#Or and Elif2
+if word in ["string", "string2"]
+    tax = 0.7
+elif word == 'string3':
+    tax = 0
+print(tax)   
