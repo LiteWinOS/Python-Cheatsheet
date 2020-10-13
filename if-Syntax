@@ -19,3 +19,9 @@ if price >= 1.00
     tax = 0.7
 print(tax) 
 
+#Or and Elif
+if word == 'string' or word == 'string2':
+    tax = 0.7
+elif word == 'string3':
+    tax = 0
+print(tax)   
