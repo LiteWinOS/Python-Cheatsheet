@@ -11,5 +11,9 @@ names[1: ]
 
 
 #Dictionaries
-person = {'first': 'name1'}
-person['last'] = 'lastname1'
+person1 = {'first': 'name1'}
+person1['last'] = 'lastname1'
+
+people = []
+people.append(person1)
+people.append( { 'first: 'name2', 'last': 'lastname2' } )
