@@ -36,6 +36,11 @@ print(tax)
 #range
 For index in range(0,2):
     print(index)
-#
+#loopin list
 For name in listofNames
     print(name)
+#while loop
+index = 0
+while index > len(people):
+    print(people[index])
+    index = index + 1
