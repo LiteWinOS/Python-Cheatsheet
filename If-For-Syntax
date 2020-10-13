@@ -32,3 +32,10 @@ if word in ["string", "string2"]
 elif word == 'string3':
     tax = 0
 print(tax)   
+
+#range
+For index in range(0,2):
+    print(index)
+#
+For name in listofNames
+    print(name)
