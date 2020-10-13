@@ -1,1 +1,21 @@
+#Standard
+if price >= 1.00
+    tax = 0.7
+    print(tax)
+else:
+    tax = 0
+    print(tax)
+
+#Standard+
+if price >= 1.00
+    tax = 0.7
+else:
+    tax = 0
+print(tax)
+
+#pre-defined
+tax = 0
+if price >= 1.00
+    tax = 0.7
+print(tax) 
 
