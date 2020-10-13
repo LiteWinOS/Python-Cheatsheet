@@ -1,0 +1,4 @@
+#
+def func_name(para):
+  print(para)
+  return 0
