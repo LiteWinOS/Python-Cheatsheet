@@ -14,6 +14,7 @@ names[1: ]
 person1 = {'first': 'name1'}
 person1['last'] = 'lastname1'
 
+#Adding Dictionaries to a List
 people = []
 people.append(person1)
 people.append( { 'first: 'name2', 'last': 'lastname2' } )
