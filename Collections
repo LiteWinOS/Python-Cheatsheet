@@ -10,7 +10,7 @@ names[1: ]
 #Array
 
 
-#Dictionaries
+#Dictionaries - are like Caplets / Synonym
 person1 = {'first': 'name1'}
 person1['last'] = 'lastname1'
 
