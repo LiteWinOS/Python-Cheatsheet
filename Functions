@@ -1,4 +1,13 @@
-#
+#default
 def func_name(para):
   print(para)
   return 0
+
+#no else needed
+    if force_uppercase == false:
+      return name[0:1]
+    return name[0:1].upper()
+ 
+#1-line if-else in function
+def get_initial(name, force_uppercase=True):
+    return name[0:1].upper() if force_uppercase else name[0:1]
