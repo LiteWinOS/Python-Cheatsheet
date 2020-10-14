@@ -41,6 +41,6 @@ For name in listofNames
     print(name)
 #while loop
 index = 0
-while index > len(people):
+while index < len(people):
     print(people[index])
     index = index + 1
