@@ -4,10 +4,18 @@ def func_name(para):
   return 0
 
 #no else needed
-    if force_uppercase == false:
-      return name[0:1]
-    return name[0:1].upper()
+def get_initial(name, force_uppercase=True):
+    if force_uppercase:
+      return name[0:1].upper()
+    return name[0:1]
  
 #1-line if-else in function
 def get_initial(name, force_uppercase=True):
     return name[0:1].upper() if force_uppercase else name[0:1]
+
+#name notication
+def get_initial(para1, para2=defaultvalue, para3, para4):
+  #code
+
+#calling with name notication
+get_initial(para1=True,para4='string',para3)
