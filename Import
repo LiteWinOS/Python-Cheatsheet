@@ -1,0 +1,7 @@
+#non global importation
+import Helpers
+Helpers.Func_name()
+
+#global importation
+from Helpers import *
+Func_name()
