@@ -1,1 +1,20 @@
+#Empty Class
+Class Employee:
+  Pass
 
+#Primitive Instantiation
+emp_1 = Employee()
+emp_1.name = 'name'
+emp_1.last = 'last'
+
+
+#Functional Instantiation Class
+class Employee:
+
+    def __init__(self, first, last, pay):
+        self.first = first
+        self.last = last
+        self.email = first + '.' + last + '@email.com'
+        self.pay = pay
+
+emp_2 = Employee('first2', 'last2', 60000) # same as Employee.__init__()
