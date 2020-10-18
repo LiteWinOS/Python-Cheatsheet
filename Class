@@ -8,7 +8,7 @@ emp_1.name = 'name'
 emp_1.last = 'last'
 
 
-#Functional Instantiation Class
+#Class with Functional Instantiation 
 class Employee:
 
     def __init__(self, first, last, pay):               # self, refering to the Instance - For Example: self.fullname() = Employee.fullname(self)
