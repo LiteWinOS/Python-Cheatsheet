@@ -11,10 +11,10 @@ emp_1.last = 'last'
 #Functional Instantiation Class
 class Employee:
 
-    def __init__(self, first, last, pay):
+    def __init__(self, first, last, pay):               # self, refering to the Instance - For Example: self.fullname() = Employee.fullname(self)
         self.first = first
         self.last = last
         self.email = first + '.' + last + '@email.com'
         self.pay = pay
 
-emp_2 = Employee('first2', 'last2', 60000) # same as Employee.__init__()
+emp_2 = Employee('first2', 'last2', 60000)              # Same as Employee.__init__()
